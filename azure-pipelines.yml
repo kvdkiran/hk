@@ -14,4 +14,14 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
-- script: python -mhtmllib sample.html
+{ 
+ "name": "Example Application", 
+ "version": "1.0.0", 
+ "description": "", 
+ "main": "index.js", 
+ "scripts": { 
+    "build": "echo 'build script executed'" 
+ }, 
+ "author": "", 
+ "license": "" 
+} 
