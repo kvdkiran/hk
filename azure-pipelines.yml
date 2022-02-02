@@ -10,18 +10,4 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
-{ 
- "name": "Example Application", 
- "version": "1.0.0", 
- "description": "", 
- "main": "index.js", 
- "scripts": { 
-    "build": "echo 'build script executed'" 
- }, 
- "author": "", 
- "license": "" 
-} 
+- script: python -mhtmllib sample.html
